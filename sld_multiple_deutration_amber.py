@@ -1,3 +1,4 @@
+# Written by Mohd Ibrahim
 import MDAnalysis as mda
 import numpy as np
 import argparse
