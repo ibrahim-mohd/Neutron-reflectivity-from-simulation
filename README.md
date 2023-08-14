@@ -2,6 +2,9 @@
 The scripts and notebook provided here provide a systematic way to directly calculate neutron reflectivity profiles from molecular dynamics simulations for
 bilayer systems
 
+# Dependences
+Refnx python package
+
 # How to use
 Obtain the SLD for a bilayer using the provided script `sld_multiple_deutration_amber.py`. Please recenter the output of the script
 
@@ -13,9 +16,8 @@ by the script.
 
 Using the experimental reflectivity in the three solvent contrast, the script varies $\alpha$, the water fraction at the silica-bilayer interface, and $\gamma$, the fraction of area
 covered by water patches.
-
-# Dependences
-Refnx python package
+# Example files
+The `example-data` has typical neutron scattering length density profiles for the MC3H-DOPC system (refer to the reference) and example reflectivity profiles.
 
 # References
 Please find the details at https://pubs.rsc.org/en/content/articlelanding/2023/nr/d3nr00987d and cite the reference: Nanoscale, 2023,15, 11647-11656 
