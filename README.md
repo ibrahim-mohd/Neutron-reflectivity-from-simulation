@@ -6,7 +6,7 @@ bilayer systems
 Refnx python package
 
 # How to use
-Obtain the SLD for a bilayer using the provided script `sld_multiple_deutration_amber.py`. Please recenter the output of the script
+Obtain the SLD for a bilayer using the provided script `sld_multiple_deutration_amber.py`. Please recenter the output of the script such that the electron density is symmetric around 0.
 
 We assume you have 4 experimental reflectivity profiles for your systems (i) reflectivity profile from silica-D<sub>2</sub>O system, from a supported bilayer in (ii) D<sub>2</sub>O
    (iii) H<sub>2</sub>O (iv) Contrast-matched silicon (CMSi) contrast (~38% D<sub>2</sub>O).
